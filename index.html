@@ -12,14 +12,20 @@
 <script src="main.js"></script>
 
 <body>
-    <i class="fa fa-bars menu-icon" onclick="openMenu()"></i>
-    <div id="menu-container">
-        <div id="close" onclick="closeMenu()">➕</div>
-        <ul id="menu">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+
+    <header id="main-header">
+        <a href="index.html"><img src="/Images/Fubara-portfolio-favicon.jpg" alt="favicon"></a>
+        <h2>HOME</h2>
+        <button class="menu-button" onclick="openMenu()">Menu</button>
+        <div id="menu-container">
+            <div id="close" onclick="closeMenu()">➕</div>
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
 </body>

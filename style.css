@@ -4,6 +4,17 @@
   font-family: monospace;
 }
 
+.menu-button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
 .menu-icon {
   float: right;
   margin: 20px;
